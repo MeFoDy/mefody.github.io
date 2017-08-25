@@ -6,7 +6,6 @@
 - Favicon
 - Twitter cards, OG:tags (https://github.com/merlos/jekyll-auto-image)
 - Tag autopages (https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-AUTOPAGES.md, https://github.com/pattex/jekyll-tagging)
-- Disqus integration (https://mefody.disqus.com/admin/)
 - Robots.txt
 - Reading time + Reading progress
 - Print styles
@@ -22,3 +21,4 @@
 [x] Page title (with " | site.title")
 [x] Pagination (https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md)
 [x] RSS integration
+[x] Disqus integration (https://mefody.disqus.com/admin/)

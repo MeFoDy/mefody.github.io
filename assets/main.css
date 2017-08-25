@@ -396,8 +396,10 @@ pre {
   width: 100%;
   justify-content: space-between;
   flex-wrap: wrap;
+  border-bottom: 1px solid #91BED4;
   border-top: 1px solid #91BED4;
-  padding: 5px 0; }
+  padding: 5px 0;
+  margin-bottom: 30px; }
   .post-next-prev .post-next,
   .post-next-prev .post-prev {
     flex: 1 1 300px; }
