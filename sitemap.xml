@@ -1,20 +1,162 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    {% for post in site.posts %}
+    
     <url>
-        <loc>http://mefody.github.io{{ post.url | remove: 'index.html' }}</loc>
+        <loc>http://mefody.github.io/2015/11/04/100-within-temptation.html</loc>
     </url>
-    {% endfor %}
+    
+    <url>
+        <loc>http://mefody.github.io/2015/11/02/100-ministr.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://mefody.github.io/2015/10/08/top-5-books.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://mefody.github.io/2015/10/07/100-helicopter.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://mefody.github.io/2015/09/03/100-linkin-park.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://mefody.github.io/2015/08/17/100-pribaltika.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://mefody.github.io/2015/07/04/100-diploma.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://mefody.github.io/2015/07/03/100-president-party.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://mefody.github.io/2015/05/31/100vkssvzh-beard.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://mefody.github.io/2015/05/31/100vkssvzh-1.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://mefody.github.io/2015/02/09/1c-moscow.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://mefody.github.io/2014/12/31/gifts-to-want.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://mefody.github.io/2014/08/16/voennie-sbory.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://mefody.github.io/2014/06/13/studvesna-2014-day-2.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://mefody.github.io/2014/06/12/studvesna-2014-day-1.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://mefody.github.io/2014/05/11/happy-art-month-1.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://mefody.github.io/2014/04/04/minskaya-smena-2014.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://mefody.github.io/2014/03/15/ten.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://mefody.github.io/2014/02/17/22-years-old.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://mefody.github.io/2014/02/14/be-kind.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://mefody.github.io/2014/02/02/junona-i-avos.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://mefody.github.io/2014/01/14/extremely-loud-and-incredibly-close.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://mefody.github.io/2014/01/11/fuck-yeah-seventh-session.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://mefody.github.io/2014/01/08/year-2013-total.html</loc>
+    </url>
+    
 
-    {% for page in site.pages %}
-    {% if page.layout != nil %}
-    {% if page.layout != 'feed' %}
+    
+    
+    
     <url>
-        <loc>http://mefody.github.io{{ page.url | remove: 'index.html' }}</loc>
+        <loc>http://mefody.github.io/404.html</loc>
     </url>
-    {% endif %}
-    {% endif %}
-    {% endfor %}
+    
+    
+    
+    
+    
+    <url>
+        <loc>http://mefody.github.io/about/</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>http://mefody.github.io/feed.xml</loc>
+    </url>
+    
+    
+    
+    
+    
+    
+    
+    <url>
+        <loc>http://mefody.github.io/portfolio/</loc>
+    </url>
+    
+    
+    
+    
+    
+    
+    
+    <url>
+        <loc>http://mefody.github.io/</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>http://mefody.github.io/page/2.html</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>http://mefody.github.io/page/3.html</loc>
+    </url>
+    
+    
+    
 </urlset>

@@ -1,24 +1,276 @@
----
-layout: nil
----
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title type="text" xml:lang="ru">{{ site.title }}</title>
-  <link type="application/atom+xml" href="{{ "/feed.xml" | absolute_url }}" rel="self"/>
-  <link type="text/html" href="{{ site.url }}" rel="alternate"/>
-  <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>{{ site.url }}</id>
+  <title type="text" xml:lang="ru">Записки грустного балагура</title>
+  <link type="application/atom+xml" href="http://localhost:4000/feed.xml" rel="self"/>
+  <link type="text/html" href="http://localhost:4000" rel="alternate"/>
+  <updated>2017-08-25T10:34:31+03:00</updated>
+  <id>http://localhost:4000</id>
   <author>
-    <name>{{ site.author }}</name>
+    <name>Никита Дубко</name>
   </author>
 
-  {% for post in site.posts limit:20 %}
+  
   <entry>
-    <title>{{ post.title }}</title>
-    <link href="{{ site.url }}{{ post.url }}"/>
-    <updated>{{ post.date | date_to_xmlschema }}</updated>
-    <id>{{ site.url }}{{ post.id }}</id>
-    <content type="html">{{ post.excerpt | xml_escape }}</content>
+    <title>Концерт Within Temptation в Минске</title>
+    <link href="http://localhost:4000/2015/11/04/100-within-temptation.html"/>
+    <updated>2015-11-04T22:09:20+03:00</updated>
+    <id>http://localhost:4000/2015/11/04/100-within-temptation</id>
+    <content type="html">&lt;p&gt;До этого года я как-то не сильно увлекался посещением живых концертов. Можно ведь скачать всю дискографию любимой группы, найти хорошие наушники и наслаждаться музыкой в комфорте и без лишнего шума. &lt;a href=&quot;/2015/09/03/100-linkin-park.html&quot;&gt;Концерт Linkin Park&lt;/a&gt; стал переломным моментом — теперь я понимаю, зачем люди ходят на такие мероприятия.&lt;/p&gt;
+
+&lt;p class=&quot;block-full-width&quot;&gt;&lt;img src=&quot;/assets/images/posts/2015-11-04-100-within-temptation/header.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;26 октября&lt;/strong&gt; во Дворце Спорта прошел концерт обожаемой мной еще с 6 класса школы симфо-готик-метал группы &lt;strong&gt;Within Temptation&lt;/strong&gt;. И пропустить его я просто не мог.&lt;/p&gt;
+
+</content>
   </entry>
-  {% endfor %}
+  
+  <entry>
+    <title>Пожать руку Министру образования — done</title>
+    <link href="http://localhost:4000/2015/11/02/100-ministr.html"/>
+    <updated>2015-11-02T00:52:49+03:00</updated>
+    <id>http://localhost:4000/2015/11/02/100-ministr</id>
+    <content type="html">&lt;p&gt;А вот без всяких вступлений: &lt;strong&gt;да, я это сделал&lt;/strong&gt;!&lt;/p&gt;
+
+&lt;p class=&quot;block-full-width free-image&quot;&gt;&lt;img src=&quot;/assets/images/posts/2015-11-02-100-ministr/ministr.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Но какой смысл тогда для этого целый пост в блоге писать?&lt;/p&gt;
+
+&lt;p&gt;Не так давно, а точнее в день получения диплома инженера-программиста в родном БГУИР, я задумался, скольким Великим, с моей точки зрения, людям за свою короткую пока жизнь я успел пожать руку. Оказывается, список не такой уж и скудный, скажу я вам. Итак, по порядку.&lt;/p&gt;
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>Топ-5 полезных книг по версии Грустного Балагура</title>
+    <link href="http://localhost:4000/2015/10/08/top-5-books.html"/>
+    <updated>2015-10-08T18:36:11+03:00</updated>
+    <id>http://localhost:4000/2015/10/08/top-5-books</id>
+    <content type="html">&lt;p&gt;На прошлой неделе сеть магазинов &lt;a href=&quot;http://oz.by&quot;&gt;oz.by&lt;/a&gt; начала праздновать свое 16-летие. И в рамках праздничных акций в своих группах вконтакте провела несколько конкурсов, среди которых был &lt;strong&gt;«Топ 5»&lt;/strong&gt;. Задачей конкурса было выбрать и интересно описать 5 книг, которые хотелось бы порекомендовать своим знакомым и друзьям к прочтению. А почему бы и не поучаствовать?&lt;/p&gt;
+
+&lt;p class=&quot;block-full-width&quot;&gt;&lt;img src=&quot;/assets/images/posts/2015-10-08-top-5-books/oz.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Никакой рекламы, просто картинка для привлечения внимания.&lt;/em&gt;&lt;/p&gt;
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>Полет на вертолете Robinson R44</title>
+    <link href="http://localhost:4000/2015/10/07/100-helicopter.html"/>
+    <updated>2015-10-07T09:00:50+03:00</updated>
+    <id>http://localhost:4000/2015/10/07/100-helicopter</id>
+    <content type="html">&lt;p&gt;Всего &lt;a href=&quot;https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D0%BD%D0%B3%D0%BE%D0%BB%D1%8C%D1%84%D1%8C%D0%B5%D1%80&quot;&gt;300 лет назад&lt;/a&gt; человек мог только мечтать о полете. Воздух будоражил умы изобретателей как последняя непокоренная стихия. Теперь же самолеты, вертолеты, воздушные шары вряд ли могут кого-то удивить.&lt;/p&gt;
+
+&lt;p class=&quot;block-full-width&quot;&gt;&lt;img src=&quot;/assets/images/posts/2015-10-07-100-helicopter/1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Могут. Решив порадовать свою Иру, купил на &lt;a href=&quot;http://daroo.by&quot;&gt;daroo.by&lt;/a&gt; сертификат на &lt;a href=&quot;http://daroo.by/polet-na-vertolete-robinson-r44.html&quot;&gt;полет&lt;/a&gt; на вертолете &lt;strong&gt;Robinson R44&lt;/strong&gt;. И не прогадал.&lt;/p&gt;
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>Концерт Linkin Park в Минске</title>
+    <link href="http://localhost:4000/2015/09/03/100-linkin-park.html"/>
+    <updated>2015-09-03T22:17:59+03:00</updated>
+    <id>http://localhost:4000/2015/09/03/100-linkin-park</id>
+    <content type="html">&lt;p&gt;27 августа — в этом году это один из самых важных дней для фанатов &lt;strong&gt;Linkin Park&lt;/strong&gt; в Беларуси. Почему? Да потому, что группа в полном составе в первый раз приехала со своим концертом в Минск.&lt;/p&gt;
+
+&lt;p class=&quot;block-full-width&quot;&gt;&lt;img src=&quot;/assets/images/posts/2015-09-03-100-linkin-park/poster.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>«Тарту-Таллинн-Рига» за три дня</title>
+    <link href="http://localhost:4000/2015/08/17/100-pribaltika.html"/>
+    <updated>2015-08-17T17:10:43+03:00</updated>
+    <id>http://localhost:4000/2015/08/17/100-pribaltika</id>
+    <content type="html">&lt;p&gt;Вы когда-нибудь бывали за границей? И под заграницей я понимаю не Россию и другие страны СНГ, куда можно без особых проблем добраться на машине. Наверняка, бывали. А я вот до этого года никуда дальше Санкт-Петербурга не выбирался. Но, раз цель такую перед собой поставил, посетить страну Шенгенского соглашения — надо выполнять.&lt;/p&gt;
+
+&lt;p class=&quot;block-full-width&quot;&gt;&lt;img src=&quot;/assets/images/posts/2015-08-17-100-pribaltika/1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>Защита диплома: руководство для дипломников</title>
+    <link href="http://localhost:4000/2015/07/04/100-diploma.html"/>
+    <updated>2015-07-04T23:18:40+03:00</updated>
+    <id>http://localhost:4000/2015/07/04/100-diploma</id>
+    <content type="html">&lt;p&gt;В списке вещей, которые обязательны к выполнению для каждого студента, есть итоговый пункт — &lt;strong&gt;защита диплома&lt;/strong&gt;. И таки я его выполнил, причем на самый высокий балл, несмотря на волнение и предвзятость к моему диплому со стороны некоторых преподавателей.&lt;/p&gt;
+
+&lt;p class=&quot;block-full-width&quot;&gt;&lt;img src=&quot;/assets/images/posts/2015-07-04-100-diploma/diploma.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Перед тем, как идти защищать диплом, я специально изучил множество источников, которые дают полезные советы по процедуре защиты. Мне они пригодились, поэтому делюсь ими с вами.&lt;/p&gt;
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>Президентский бал 2015</title>
+    <link href="http://localhost:4000/2015/07/03/100-president-party.html"/>
+    <updated>2015-07-03T21:01:40+03:00</updated>
+    <id>http://localhost:4000/2015/07/03/100-president-party</id>
+    <content type="html">&lt;p&gt;Как много вы знаете людей, которые свой выпускной отмечали в одном помещении с Президентом страны? До своего выпускного я знал четверых выпускников БГУИР, которым выпала честь попасть на &lt;strong&gt;Республиканский бал выпускников с участием Президента Республики Беларусь&lt;/strong&gt;. И где-то два года назад задался целью стать одним из счастливчиков, которым такая возможность дается.&lt;/p&gt;
+
+&lt;p class=&quot;block-full-width&quot;&gt;&lt;img src=&quot;/assets/images/posts/2015-07-03-100-president-party/1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>Борода</title>
+    <link href="http://localhost:4000/2015/05/31/100vkssvzh-beard.html"/>
+    <updated>2015-05-31T01:18:33+03:00</updated>
+    <id>http://localhost:4000/2015/05/31/100vkssvzh-beard</id>
+    <content type="html">&lt;p&gt;Вторым пунктом, который я выполнил из своего &lt;a href=&quot;/2015/05/31/100vkssvzh-1.html&quot;&gt;списка 100 вещей, которые следует сделать в жизни&lt;/a&gt;, был следующий: &lt;strong&gt;«Отрастить пышную бороду»&lt;/strong&gt;. Так как я точно знаю, что борода Вассермана мне не к лицу, а люди, которые со мной общаются больше всего, явно будут против бороды длиннее 10 см, то критерием достижения этого пункта была фраза от кого-нибудь из знакомых &lt;em&gt;“Ничего себе, какая у тебя пышная борода”&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p class=&quot;block-full-width&quot;&gt;&lt;img src=&quot;/assets/images/posts/2015-05-31-100vkssvzh-beard/poster.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>100 вещей, которые следует сделать в жизни. Пункт 1</title>
+    <link href="http://localhost:4000/2015/05/31/100vkssvzh-1.html"/>
+    <updated>2015-05-31T00:24:04+03:00</updated>
+    <id>http://localhost:4000/2015/05/31/100vkssvzh-1</id>
+    <content type="html">&lt;p&gt;Последние два года я стараюсь развивать свои навыки в сферах тайм-менеджмента и самомотивации. Делать это можно по-разному. Я — читаю умные книги, подписан на рассылку от сайта &lt;a href=&quot;http://lifehacker.ru&quot;&gt;lifehacker.ru&lt;/a&gt;, посетил несколько бесплатных тренингов. И многие люди, которые действительно добились успеха в своих областях, советуют каждому создать &lt;strong&gt;список из 100 вещей, которые следует сделать в жизни&lt;/strong&gt;. Называют его по-разному, но суть в том, чтобы потратить один вечер на составление этого списка, а затем в течение всей жизни постараться его выполнить до конца.&lt;/p&gt;
+
+&lt;p class=&quot;block-full-width&quot;&gt;&lt;img src=&quot;/assets/images/posts/2015-05-31-100vkssvzh-1/poster.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Раз умные люди советуют, почему бы и не попробовать.&lt;/p&gt;
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>Конференция от 1С в Москве</title>
+    <link href="http://localhost:4000/2015/02/09/1c-moscow.html"/>
+    <updated>2015-02-09T22:55:00+03:00</updated>
+    <id>http://localhost:4000/2015/02/09/1c-moscow</id>
+    <content type="html">&lt;p&gt;&lt;strong&gt;С 3 по 4 февраля&lt;/strong&gt; мне удалось побывать &lt;strong&gt;в Москве&lt;/strong&gt;. Любимая кафедра в качестве подарка будущему сотруднику (и нынешнему проходящему практику) дала мне возможность посетить &lt;em&gt;15 международную научно-практическую конференцию «Новые информационные технологии в образовании»&lt;/em&gt; (Применение технологий «1С» для формирования инновационной среды образования и бизнеса). Да, вот такое длинное название, а суть простая: рекламное мероприятие от фирмы «1С» аж на 2.5 тысячи человек.&lt;/p&gt;
+
+&lt;p class=&quot;block-full-width&quot;&gt;&lt;img src=&quot;/assets/images/posts/2015-02-09-1c-moscow/poster.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;А теперь обо всем поподробнее.&lt;/p&gt;
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>Мои хотелки, или Губа не треснет</title>
+    <link href="http://localhost:4000/2014/12/31/gifts-to-want.html"/>
+    <updated>2014-12-31T00:57:00+03:00</updated>
+    <id>http://localhost:4000/2014/12/31/gifts-to-want</id>
+    <content type="html">&lt;p&gt;&lt;strong&gt;&lt;em&gt;Вместо вступления.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Давно я что-то не писал в свой блог. Поводы, казалось бы, были, но вот времени на написание постов в бложег, увы, не находилось. И вот настала, наконец, та пора для студента, когда прокрастинация зашкаливает в течение всего дня — сессия. Так и появилась эта замечательная страничка.&lt;/p&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;&lt;img src=&quot;/assets/images/posts/2014-12-31-gifts-to-want/1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>«Зеленою весной под старою сосной...»</title>
+    <link href="http://localhost:4000/2014/08/16/voennie-sbory.html"/>
+    <updated>2014-08-16T17:53:00+03:00</updated>
+    <id>http://localhost:4000/2014/08/16/voennie-sbory</id>
+    <content type="html">&lt;p&gt;Песня, начинающаяся с этих строк, наверное, навсегда закрепилась в моей памяти. И тому есть причина.&lt;/p&gt;
+
+&lt;p class=&quot;block-full-width with-iframe&quot;&gt;&lt;iframe width=&quot;800&quot; height=&quot;450&quot; id=&quot;youtube_iframe&quot; src=&quot;https://www.youtube.com/embed/ggyafFuMrug&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>Победители «Студенческой весны» по версии грустного балагура. День второй</title>
+    <link href="http://localhost:4000/2014/06/13/studvesna-2014-day-2.html"/>
+    <updated>2014-06-13T20:58:00+03:00</updated>
+    <id>http://localhost:4000/2014/06/13/studvesna-2014-day-2</id>
+    <content type="html">&lt;p&gt;Первый день фестиваля &lt;strong&gt;«Студенческая весна 2014»&lt;/strong&gt; запомнился выступлениями ФИТУ и ФКП. Обзор на оба концерта с большим количеством критики вы могли прочитать &lt;a href=&quot;/2014/06/12/studvesna-2014-day-1.html&quot;&gt;ранее&lt;/a&gt;. Приступим к детальному и максимально критичному обзору второго и, на мой взгляд, самого насыщенного дня студвесны. И сегодня под удар моего пера попадут факультет компьютерных систем и сетей и инженерно-экономический факультет.&lt;/p&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;&lt;img src=&quot;/assets/images/posts/2014-06-13-studvesna-2014-day-2/logo.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>Победители «Студенческой весны» по версии грустного балагура. День первый</title>
+    <link href="http://localhost:4000/2014/06/12/studvesna-2014-day-1.html"/>
+    <updated>2014-06-12T19:46:00+03:00</updated>
+    <id>http://localhost:4000/2014/06/12/studvesna-2014-day-1</id>
+    <content type="html">&lt;p&gt;Уже давно утихли страсти по &lt;em&gt;«Студенческой весне 2014»&lt;/em&gt;. Победители целый месяц почивают на лаврах, побежденные готовят выступления для реванша. А у меня была договоренность с режиссером, сценаристом и актером нашей студвесны о том, что я не буду публиковать посты об этом чудесном мероприятии в своем блоге до его обзоров. И вот оно свершилось: &lt;a href=&quot;http://mr-ten.tumblr.com/post/87746315415/1&quot;&gt;пост замечательного человека&lt;/a&gt; доступен всем желающим. Значит, настало и мое время.&lt;/p&gt;
+
+&lt;p&gt;Итак, дамы и господа, перед вами максимально критичная оценка выступлений всех факультетов на фестивале студенческого творчества &lt;strong&gt;«Студенческая весна 2014»&lt;/strong&gt; по версии грустного балагура.&lt;/p&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;&lt;img src=&quot;/assets/images/posts/2014-06-12-studvesna-2014-day-1/logo.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>Месяц творчества, или Счастье на сцене</title>
+    <link href="http://localhost:4000/2014/05/11/happy-art-month-1.html"/>
+    <updated>2014-05-11T14:47:09+03:00</updated>
+    <id>http://localhost:4000/2014/05/11/happy-art-month-1</id>
+    <content type="html">&lt;p&gt;Часто ли вы творите? Не выполняете рутинную работу, не делаете что-то «на автомате», а именно &lt;strong&gt;творите&lt;/strong&gt;. Я вот не могу похвастаться тем, что погружаюсь в истинное творчество достаточно часто, как того хочется. Но апрель этого года позволил зарядиться на много времени вперед: &lt;em&gt;«Зеленый кактус»&lt;/em&gt;, &lt;em&gt;«Студенческая весна»&lt;/em&gt; — два различных по жанру фестиваля студенческого творчества, которые поглотили меня с головой, освободив, наконец, от оков системы, в которой мы живем.&lt;/p&gt;
+
+&lt;p class=&quot;block-full-width&quot;&gt;&lt;img src=&quot;/assets/images/posts/2014-05-11-happy-art-month-1/vesna.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>Хроники «Минской смены»: лагерь «Лидер»</title>
+    <link href="http://localhost:4000/2014/04/04/minskaya-smena-2014.html"/>
+    <updated>2014-04-04T22:17:00+03:00</updated>
+    <id>http://localhost:4000/2014/04/04/minskaya-smena-2014</id>
+    <content type="html">&lt;p&gt;&lt;strong&gt;«Минская смена»&lt;/strong&gt; — это длительное мероприятие, в ходе которого одни из лучших студентов города Минска в различных сферах реализуют общественно-полезные некоммерческие проекты. В этом году мне повезло попасть в число этих студентов.&lt;/p&gt;
+
+&lt;p class=&quot;block-full-width&quot;&gt;&lt;img src=&quot;/assets/images/posts/2014-04-04-minskaya-smena-2014/logo.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>Десять</title>
+    <link href="http://localhost:4000/2014/03/15/ten.html"/>
+    <updated>2014-03-15T22:33:29+03:00</updated>
+    <id>http://localhost:4000/2014/03/15/ten</id>
+    <content type="html">&lt;p&gt;&lt;em&gt;Решил попробовать себя в новом жанре, а именно в написании рассказов. Критика и отзывы приветствуются.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p class=&quot;block-full-width&quot;&gt;&lt;img src=&quot;/assets/images/posts/2014-03-15-ten/logo.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>22-й пошел</title>
+    <link href="http://localhost:4000/2014/02/17/22-years-old.html"/>
+    <updated>2014-02-17T14:43:50+03:00</updated>
+    <id>http://localhost:4000/2014/02/17/22-years-old</id>
+    <content type="html">&lt;p&gt;Вчера у меня был День Рождения. Да-да, именно вчера.&lt;/p&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;&lt;img src=&quot;/assets/images/posts/2014-02-17-22-years-old/logo.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;И вот, как он прошел.&lt;/p&gt;
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>Будьте добрее, господа!</title>
+    <link href="http://localhost:4000/2014/02/14/be-kind.html"/>
+    <updated>2014-02-14T19:35:00+03:00</updated>
+    <id>http://localhost:4000/2014/02/14/be-kind</id>
+    <content type="html">&lt;p&gt;Мы живем в безумном мире, где каждый спешит успеть справиться со своими самыми «нужными» заботами. Все куда-то бегут, мчатся, торопятся, постоянно поглядывая на часы. С утра до вечера мы носим маску занятого человека, и лишь только дома, когда никто не видит, становимся теми, кто мы есть на самом деле.&lt;/p&gt;
+
+&lt;p class=&quot;block-full-width&quot;&gt;&lt;img src=&quot;/assets/images/posts/2014-02-14-be-kind/fast.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+</content>
+  </entry>
+  
 </feed>
+
