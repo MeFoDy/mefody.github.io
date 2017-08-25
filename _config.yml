@@ -7,7 +7,7 @@ description: >
   Front-End Developer, CSS-падаван,
   впечатлительный автор
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://mefody.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dark_mefody
 github_username:  MeFoDy
 linkedin_username: nikita-dubko-5bb1608b

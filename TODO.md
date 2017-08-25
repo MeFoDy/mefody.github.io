@@ -10,6 +10,8 @@
 - Robots.txt
 - Reading time + Reading progress
 - Print styles
+- Funny 404 page
+- Code minifying
 
 
 ## Ideas
