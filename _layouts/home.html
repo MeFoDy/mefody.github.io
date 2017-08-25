@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  {{ content }}
+
+  <ul class="post-list">
+    {% for post in paginator.posts %}
+      <li class="post-item">
+        {% include post-header.html postData=post %}
+        {% include post-meta.html postData=post %}
+        {% assign post_image = "/assets/images/posts/" | append: post.assets_base | append: "/" | append: post.image %}
+        <img src="{{ post_image }}" alt="{{ post.title }}" class="post-image">
+        <div class="post-content">
+          {{ post.excerpt }}
+          <div class="post-read-link">
+            <a href="{{ post.url | relative_url }}">Читать далее...</a>
+          </div>
+        </div>
+        <hr>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <span class="pagination-link"><a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="pagination-link previous">← Назад</a></span>
+    {% else %}
+      <span class="pagination-link inactive"><a href="javascript:void(0)" class="previous">← Назад</a></span>
+    {% endif %}
+    {% if paginator.page_trail %}
+      {% for trail in paginator.page_trail %}
+        <span class="pagination-link {% if page.pagination_info.curr_page == trail.num %}selected{% endif %}">
+            <a href="{{ trail.path | prepend: site.baseurl }}" title="{{trail.title}}">{{ trail.num }}</a>
+        </span>
+      {% endfor %}
+    {% endif %}
+    {% if paginator.next_page %}
+      <span class="pagination-link"><a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="pagination-link next">Дальше →</a></span>
+    {% else %}
+      <span class="pagination-link inactive"><a href="javascript:void(0)" class="next">Дальше →</a></span>
+    {% endif %}
+  </div>
+
+</div>

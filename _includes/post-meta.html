@@ -1,0 +1,10 @@
+{% assign postData=include.postData %}
+<p class="post-meta">
+    {% include datetime.html date=postData.date %}
+    {% if postData.author %}
+    • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ postData.author }}</span></span>
+    {% endif %}
+    • {% for tag in postData.tags %}
+    <span itemprop="tag" class="post-tag">{{ tag }}</span>
+    {% endfor %}
+</p>

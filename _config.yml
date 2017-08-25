@@ -1,0 +1,65 @@
+# Site settings
+author: Никита Дубко
+title: Записки грустного балагура
+email: n.a.dubko@gmail.com
+lang: ru
+description: >
+  Front-End Developer, CSS-падаван,
+  впечатлительный автор
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: dark_mefody
+github_username:  MeFoDy
+linkedin_username: nikita-dubko-5bb1608b
+linkedin_displayname: Nikita Dubko
+
+# Build settings
+excerpt_separator: <!--more-->
+markdown: kramdown
+plugins:
+  - jekyll-auto-image
+  - jekyll-assets
+  - jekyll-paginate-v2
+# - jekyll-feed
+
+# Plugins settings
+# image: /path/to/your/default/image.png
+assets:
+  autoprefixer:
+    browsers:
+      - "last 2 versions"
+      - "IE > 9"
+
+tag_page_layout: tag_page
+tag_page_dir: tag
+
+disqus:
+  shortname: mefody
+
+pagination:
+  enabled: true
+  collection: 'posts'
+  per_page: 10
+  permalink: '/page/:num'
+  title: ':title - Страница :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  category: 'posts'
+  tag: ''
+  trail:
+    before: 2
+    after: 2
+
+autopages:
+  enabled: false
+
+# Exclude from processing.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
