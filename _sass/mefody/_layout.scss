@@ -299,6 +299,23 @@
     }
   }
 
+  .image-figure {
+    margin-top: 20px;
+
+    img {
+      margin-bottom: 5px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    figcaption {
+      font-size: $small-font-size;
+      font-style: italic;
+      color: $grey-color-dark;
+      text-align: center;
+    }
+  }
+
   // https://css-tricks.com/full-width-containers-limited-width-parents/
   .block-full-width {
     text-align: center;
