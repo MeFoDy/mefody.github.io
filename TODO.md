@@ -11,6 +11,9 @@
 - Print styles
 - Funny 404 page
 - Code minifying
+- Assets versioning
+- Save for offline button
+- Add gulp to building process
 
 
 ## Ideas

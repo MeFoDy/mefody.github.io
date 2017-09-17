@@ -3,12 +3,26 @@
   <title type="text" xml:lang="ru">Записки грустного балагура</title>
   <link type="application/atom+xml" href="https://mefody.github.io/feed.xml" rel="self"/>
   <link type="text/html" href="https://mefody.github.io" rel="alternate"/>
-  <updated>2017-08-25T18:02:30+03:00</updated>
+  <updated>2017-09-18T00:57:16+03:00</updated>
   <id>https://mefody.github.io</id>
   <author>
     <name>Никита Дубко</name>
   </author>
 
+  
+  <entry>
+    <title>Отпуск в Чехии. День 1</title>
+    <link href="https://mefody.github.io/2017/09/17/prague-tour-day-1.html"/>
+    <updated>2017-09-17T21:08:00+03:00</updated>
+    <id>https://mefody.github.io/2017/09/17/prague-tour-day-1</id>
+    <content type="html">&lt;p&gt;Так получилось, что за последние 5 лет у меня не было полноценного отпуска: то он совпадал с приемной кампанией в университете, то пересекался с необходимыми подработками, то я «удачно» умудрялся заболеть прямо с начала до конца отпускных дней. И вот, как говорится, звезды сошлись — летний отпуск удачно совпал с наличием накоплений и диким желанием хорошо отдохнуть.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Осторожно, много текста и фото.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p class=&quot;block-full-width&quot;&gt;&lt;img src=&quot;/assets/images/posts/2017-09-17-prague-tour-day-1/logo.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+</content>
+  </entry>
   
   <entry>
     <title>Концерт Within Temptation в Минске</title>
@@ -256,18 +270,6 @@
 &lt;p class=&quot;text-center&quot;&gt;&lt;img src=&quot;/assets/images/posts/2014-02-17-22-years-old/logo.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;И вот, как он прошел.&lt;/p&gt;
-
-</content>
-  </entry>
-  
-  <entry>
-    <title>Будьте добрее, господа!</title>
-    <link href="https://mefody.github.io/2014/02/14/be-kind.html"/>
-    <updated>2014-02-14T19:35:00+03:00</updated>
-    <id>https://mefody.github.io/2014/02/14/be-kind</id>
-    <content type="html">&lt;p&gt;Мы живем в безумном мире, где каждый спешит успеть справиться со своими самыми «нужными» заботами. Все куда-то бегут, мчатся, торопятся, постоянно поглядывая на часы. С утра до вечера мы носим маску занятого человека, и лишь только дома, когда никто не видит, становимся теми, кто мы есть на самом деле.&lt;/p&gt;
-
-&lt;p class=&quot;block-full-width&quot;&gt;&lt;img src=&quot;/assets/images/posts/2014-02-14-be-kind/fast.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 </content>
   </entry>
