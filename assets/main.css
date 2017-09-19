@@ -17,7 +17,8 @@ body {
   background-color: #fefefe;
   -webkit-text-size-adjust: 100%;
   font-feature-settings: "kern" 1;
-  font-kerning: normal; }
+  font-kerning: normal;
+  overflow-x: hidden; }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm

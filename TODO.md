@@ -14,6 +14,7 @@
 - Assets versioning
 - Save for offline button
 - Add gulp to building process
+- Google Analytics
 
 
 ## Ideas
