@@ -1,30 +1,34 @@
 {
-    "name": "mefody-personal-blog",
-    "version": "0.0.1",
-    "description": "Personal blog",
-    "scripts": {
-        "build": "eleventy",
-        "watch": "eleventy --watch",
-        "serve": "eleventy --serve",
-        "debug": "DEBUG=* eleventy"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/MeFoDy/mefody.github.io.git"
-    },
-    "author": {
-        "name": "Nikita Dubko",
-        "email": "n.a.dubko+dev@gmail.com",
-        "url": "https://mefody.me/"
-    },
-    "license": "MIT",
-    "devDependencies": {
-        "@11ty/eleventy": "^0.10.0",
-        "@11ty/eleventy-navigation": "^0.1.3",
-        "@11ty/eleventy-plugin-rss": "^1.0.7",
-        "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
-        "luxon": "^1.21.3",
-        "markdown-it": "^8.4.2",
-        "markdown-it-anchor": "^5.2.5"
-    }
+  "name": "mefody-blog",
+  "version": "1.0.0",
+  "description": "Personal blog",
+  "scripts": {
+    "build": "eleventy",
+    "watch": "eleventy --watch",
+    "serve": "eleventy --serve",
+    "debug": "DEBUG=* eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MeFoDy/mefody.github.io.git"
+  },
+  "author": {
+    "name": "Nikita Dubko",
+    "email": "n.a.dubko+blog@gmail.com",
+    "url": "https://mefody.dev/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MeFoDy/mefody.github.io/issues"
+  },
+  "homepage": "https://github.com/MeFoDy/mefody.github.io#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "@11ty/eleventy-navigation": "^0.1.3",
+    "@11ty/eleventy-plugin-rss": "^1.0.7",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
+    "luxon": "^1.21.3",
+    "markdown-it": "^8.4.2",
+    "markdown-it-anchor": "^5.2.5"
+  }
 }
